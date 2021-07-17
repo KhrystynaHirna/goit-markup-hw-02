@@ -1,0 +1,68 @@
+.page {
+   background-color: #FFFFFF;
+   color: #212121;
+}
+
+/* Шапка сторінки */
+
+/* Навігація */
+.logo-first-part {
+    color: #2196F3;
+}
+.logo-second-part {
+    color: #000000;
+}
+.nav-studio {
+    color: #2196F3;
+}
+.nav-mail {
+    color: #2196F3;
+}
+.nav-phone {
+    color: #757575;
+}
+
+/* Унікальний контент сторінки */
+
+/* Секція перша */
+.main-section {
+    background-color: #757575;
+    color: #FFFFFF;
+}
+.main-slogan {
+    
+}
+.main-link {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+/* Секція друга */
+.company-advantage {
+    color: #757575;
+}
+
+/* Секція четверта */
+.company-team {
+    background-color: #F5F4FA;
+}
+.team-specialty {
+    color: #757575;
+}
+
+/* Підвал сторінки */
+.footer {
+    background-color: #2F303A;
+}
+.logo-first-part-footer {
+    color: #2196F3;
+}
+.logo-second-part-footer {
+    color: #FFFFFF;
+}
+.physical-address {
+    color: #FFFFFF;
+}
+.contact-address {
+    color: #FFFFFF 60%;
+}
