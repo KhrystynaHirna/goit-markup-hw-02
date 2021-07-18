@@ -56,7 +56,7 @@
 
 /* Кнопка */
 
-.button {
+.main-section .button {
     background-color: #2196F3;
     color: #FFFFFF;  
 }
@@ -106,3 +106,14 @@ color: #2196F3;
 .contact-address:focus {
     color:#2196F3;
 } 
+
+/* Портфоліо */
+
+.portfolio-nav .button {
+    background: #F5F4FA;
+}
+.portfolio-nav .button:hover,
+.portfolio-nav .button:focus {
+    background: #2196F3;
+    color: #FFFFFF;
+}
