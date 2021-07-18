@@ -1,5 +1,6 @@
 :root {
     --primary-text-color: #212121;
+    --paragraph-text-color: #757575;
     --accent-color: #2196F3;
 }
 
@@ -109,6 +110,7 @@ color: #2196F3;
 
 /* Портфоліо */
 
+/* Кнопки у портфоліо */
 .portfolio-nav .button {
     background: #F5F4FA;
 }
@@ -116,4 +118,7 @@ color: #2196F3;
 .portfolio-nav .button:focus {
     background: #2196F3;
     color: #FFFFFF;
+}
+.portfolio-description {
+ color:#757575   
 }
