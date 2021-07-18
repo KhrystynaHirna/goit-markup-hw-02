@@ -15,10 +15,15 @@
 /* Шапка сторінки */
 
 /* Навігація */
-.logo-first {
+
+/* Лого хедер */
+.logo {
+    font-family: Raleway, sans-serif; 
+}
+.logo .first-part {
     color: #2196F3;
 }
-.logo-second {
+.logo .second-part {
     color: #000000;
 }
 
@@ -80,11 +85,14 @@
 .footer {
     background-color: #2F303A;
 }
+
 .logo-first-footer {
     color: #2196F3;
+    font-family: Raleway, cursive;
 }
 .logo-second-footer {
     color: #FFFFFF;
+    font-family: Raleway, cursive;
 }
 .logo-first-footer:hover,
 .logo-second-footer:hover,
