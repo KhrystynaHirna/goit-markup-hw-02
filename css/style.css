@@ -1,27 +1,48 @@
+:root {
+    --primary-text-color: #212121;
+    --accent-color: #2196F3;
+}
+
 .page {
    background-color: #FFFFFF;
    color: #212121;
 }
-
+.list {
+    list-style: none;
+}
 /* Шапка сторінки */
 
 /* Навігація */
-.logo-first-part {
+.logo-first {
     color: #2196F3;
 }
-.logo-second-part {
+.logo-second {
     color: #000000;
 }
-.nav-studio {
-    color: #2196F3;
-}
-.nav-mail {
-    color: #2196F3;
-}
+
+.nav-mail,
 .nav-phone {
     color: #757575;
 }
 
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
+.logo-first:hover,
+.logo-second:hover,
+.logo-first:focus,
+.logo-second:focus {
+    color: #2196F3;
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+    color:#2196F3;
+}
+
+.site-nav .link.current{
+    color: #2196F3;
+}
 /* Унікальний контент сторінки */
 
 /* Секція перша */
@@ -32,9 +53,12 @@
 .main-slogan {
     
 }
-.main-link {
+
+/* Кнопка */
+
+.button {
     background-color: #2196F3;
-    color: #FFFFFF;
+    color: #FFFFFF;  
 }
 
 /* Секція друга */
@@ -54,15 +78,31 @@
 .footer {
     background-color: #2F303A;
 }
-.logo-first-part-footer {
+.logo-first-footer {
     color: #2196F3;
 }
-.logo-second-part-footer {
+.logo-second-footer {
     color: #FFFFFF;
 }
+.logo-first-footer:hover,
+.logo-second-footer:hover,
+.logo-first-footer:focus,
+.logo-second-footer:focus {
+color: #2196F3;
+}
+
+
 .physical-address {
     color: #FFFFFF;
 }
 .contact-address {
-    color: #FFFFFF 60%;
+    color: #FFFFFF;
 }
+.physical-address:hover,
+.physical-address:focus {
+    color: #2196F3;
+}
+.contact-address:hover,
+.contact-address:focus {
+    color:#2196F3;
+} 
