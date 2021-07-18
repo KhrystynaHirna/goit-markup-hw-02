@@ -18,7 +18,15 @@
 
 /* Лого хедер */
 .logo {
-    font-family: Raleway, sans-serif; 
+    font-family: Raleway, cursive;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;  
+}
+.logo:hover,
+.logo:focus {
+    color: #2196F3;
 }
 .logo .first-part {
     color: #2196F3;
@@ -27,29 +35,34 @@
     color: #000000;
 }
 
-.nav-mail,
-.nav-phone {
-    color: #757575;
+.site-nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
-
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: #2196F3;
 }
-.logo-first:hover,
-.logo-second:hover,
-.logo-first:focus,
-.logo-second:focus {
+.site-nav .link.current{
     color: #2196F3;
+}
+.auth-nav{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
     color:#2196F3;
 }
-
-.site-nav .link.current{
-    color: #2196F3;
+.nav-mail,
+.nav-phone {
+    color: #757575;
 }
+
 /* Унікальний контент сторінки */
 
 /* Секція перша */
@@ -58,55 +71,103 @@
     color: #FFFFFF;
 }
 .main-slogan {
-    
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;  
 }
-
 /* Кнопка */
-
 .main-section .button {
     background-color: #2196F3;
-    color: #FFFFFF;  
+    color: #FFFFFF;
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    text-align: center;
+    letter-spacing: 0.06em;  
 }
 
 /* Секція друга */
-.company-advantage {
+.advantage {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.specific-advantage {
     color: #757575;
+
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+/* Секція третя */
+.our-work {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;   
 }
 
 /* Секція четверта */
 .company-team {
     background-color: #F5F4FA;
 }
+.our-employee {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
 .team-specialty {
     color: #757575;
 }
-
+.employee-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+}
+.team-specialty {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+}
 /* Підвал сторінки */
 .footer {
     background-color: #2F303A;
 }
-
-.logo-first-footer {
+/* Лого футер */
+.first-part-footer {
     color: #2196F3;
-    font-family: Raleway, cursive;
 }
-.logo-second-footer {
+.second-part-footer {
     color: #FFFFFF;
-    font-family: Raleway, cursive;
 }
-.logo-first-footer:hover,
-.logo-second-footer:hover,
-.logo-first-footer:focus,
-.logo-second-footer:focus {
-color: #2196F3;
+.address {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
 }
-
 
 .physical-address {
     color: #FFFFFF;
 }
 .contact-address {
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.6);
 }
 .physical-address:hover,
 .physical-address:focus {
@@ -120,6 +181,14 @@ color: #2196F3;
 /* Портфоліо */
 
 /* Кнопки у портфоліо */
+.button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
 .portfolio-nav .button {
     background: #F5F4FA;
 }
@@ -128,6 +197,17 @@ color: #2196F3;
     background: #2196F3;
     color: #FFFFFF;
 }
-.portfolio-description {
- color:#757575   
+.item-name {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+.item-description {
+    color:#757575;
+
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
 }
