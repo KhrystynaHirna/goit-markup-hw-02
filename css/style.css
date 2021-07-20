@@ -40,11 +40,13 @@
     color: var(--accent-color);
 }
 .site-nav {
-    color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1,1;
     letter-spacing: 0.02em;
+}
+.site-nav .link {
+    color: var(--primary-text-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -53,17 +55,17 @@
 .site-nav .link.current{
     color: var(--accent-color);
 }
-.auth-nav{
+.header-info {
     font-weight: 500;
     font-size: 14px;
     line-height: 1,1;
     letter-spacing: 0.02em;
 }
-.info {
+.info-link {
     color: var(--paragraph-text-color);
 }
-.info:hover,
-.info:focus {
+.info-link:hover,
+.info-link:focus {
     color: var(--accent-color);
 }
 
@@ -109,7 +111,7 @@
 }
 
 /* Секція третя */
-.our-work {
+.secondary-title {
     font-size: 36px;
     line-height: 1,2;
     text-align: center;
